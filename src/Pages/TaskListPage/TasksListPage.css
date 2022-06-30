@@ -1,0 +1,75 @@
+.list-tasks {
+    border: 2px solid #CAD6D3;
+    border-radius: 20px;
+    z-index: 1111;
+    overflow: hidden;
+    padding: 20px;
+    width: 50vw;
+}
+
+.task-container {
+    padding: 0 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-title > input {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    font: normal normal normal 18px/27px Montserrat;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.task-title {
+    font: normal normal normal 18px/27px Montserrat;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #CAD6D3;
+
+}
+
+.buttons > button {
+    border: none;
+    background-color: transparent;
+    color: #CAD6D3;
+    width: 50px;
+    height: auto;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+.add-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-div > button {
+    border: none;
+    background-color: transparent;
+    color: #CAD6D3;
+    width: 80px;
+
+}
+
+.input-add {
+    font: normal normal normal 18px/27px Montserrat;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #CAD6D3;
+}
